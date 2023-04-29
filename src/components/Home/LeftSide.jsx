@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import pic1 from '../../assets/1.png'
+import pic2 from '../../assets/2.png'
+import pi3 from '../../assets/3.png'
+import { FaRegCalendar } from 'react-icons/fa';
+import moment from 'moment';
 
 const LeftSide = () => {
 
@@ -33,6 +38,47 @@ const LeftSide = () => {
 
 
            </div>
+
+
+
+
+           <div>
+            <h1 className='text-left font-bold text-2xl'>Editor Insight</h1>
+
+
+            <div>
+
+
+                <div className="card card-compact bg-base-100  text-left">
+                    <figure><img src= {pic1} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Bayern Slams Authorities Over Flight Delay to Club World Cup</h2>
+                        <p className='flex items-center text-gray-500 '> <FaRegCalendar className='mr-2'/>  {moment().format('MMM D, Y')}</p>
+                        
+                    </div>
+                </div>
+                <div className="card card-compact  bg-base-100  text-left">
+                    <figure><img src= {pic1} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Bayern Slams Authorities Over Flight Delay to Club World Cup</h2>
+                        <p className='flex items-center text-gray-500 '> <FaRegCalendar className='mr-2'/>  {moment().format('MMM D, Y')}</p>
+                        
+                    </div>
+                </div>
+                <div className="card card-compact  bg-base-100  text-left">
+                    <figure><img src= {pic1} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Bayern Slams Authorities Over Flight Delay to Club World Cup</h2>
+                        <p className='flex items-center text-gray-500 '> <FaRegCalendar className='mr-2'/>  {moment().format('MMM D, Y')}</p>
+                        
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
             
         </div>
     );

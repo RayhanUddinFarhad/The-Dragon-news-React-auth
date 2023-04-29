@@ -21,7 +21,7 @@ const NewsLayOut = () => {
                     <Navbar></Navbar>
                 </div>
 
-                <div className='grid grid-cols-6 mt-5'>
+                <div className='grid gap-4 lg:grid-cols-6 mt-5'>
 
 
 

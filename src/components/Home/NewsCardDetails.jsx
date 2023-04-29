@@ -8,9 +8,9 @@ import '@smastrom/react-rating/style.css'
 const NewsCardDetails = ({ data }) => {
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl my-2">
+            <div className="card bg-base-100 border my-2">
 
-                <div className='pb-3 flex justify-between bg-[#F3F3F3]'>
+                <div className='pb-3 flex justify-between bg-[#F3F3F3] p-4'>
 
                     <div className='flex space-x-2'>
 
@@ -64,7 +64,7 @@ const NewsCardDetails = ({ data }) => {
 
 
 
-                    <div className="flex justify-between items-center mt-4">
+                    <div className="flex justify-between items-center mt-4 border p-6">
                         <div className='flex  items-center space-x-3'>
 
 

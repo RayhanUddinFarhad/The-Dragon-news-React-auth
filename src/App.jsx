@@ -27,7 +27,7 @@ function App() {
         <Navbar></Navbar>
         </div>
 
-        <div className='grid grid-cols-6 mt-5'>
+        <div className='grid lg:grid-cols-6 mt-5 gap-5'>
 
 
             <LeftSide></LeftSide>

@@ -9,7 +9,6 @@ const NewsCard = () => {
 
     return (
         <div>
-            <h1>There is : {news.length}</h1>
 
             {
 

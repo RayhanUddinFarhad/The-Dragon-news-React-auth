@@ -10,7 +10,7 @@ const Header = () => {
             <div className='flex justify-center '>
                 <div className='space-y-3'>
 
-                    <img src={logo} alt="" />
+                    <img className='max-w-full' src={logo} alt="" />
                     <p>Journalism Without Fear or Favour</p>
                     <p>{moment().format("dddd, MMMM D, YYYY")}</p>
 

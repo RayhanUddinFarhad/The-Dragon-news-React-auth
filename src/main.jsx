@@ -21,6 +21,15 @@ const router = createBrowserRouter([
 
     children : [
 
+
+      {
+
+        path : '/',
+        element : <NewsCard></NewsCard>,
+        loader : (() => fetch (`https://dragon-news-server-rayhanuddinfarhad.vercel.app/news`))
+
+      },
+
       {
         path : 'category/:id',
         element : <NewsCard></NewsCard>,
