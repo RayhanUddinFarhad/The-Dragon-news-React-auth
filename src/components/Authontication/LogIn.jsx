@@ -49,10 +49,10 @@ const LogIn = () => {
 
 
 
-            <div>
+            <div className='min-h-min '>
 
                 
-                        <div className="card w-full max-w-sm shadow-2xl bg-base-100 mx-auto">
+                        <div className="card  lg:w-full min-w-max lg:max-w-sm shadow-2xl bg-base-100 mx-auto p-8">
                             
                         <div>
                                     <p className='text-3xl font-bold'>Log In Your Accunt</p>

@@ -10,9 +10,9 @@ const NewsCardDetails = ({ data }) => {
         <div>
             <div className="card bg-base-100 border my-2">
 
-                <div className='pb-3 flex justify-between bg-[#F3F3F3] p-4'>
+                <div className='pb-3 lg:flex justify-between bg-[#F3F3F3] p-4'>
 
-                    <div className='flex space-x-2'>
+                    <div className='lg:flex space-x-2'>
 
                         <img className='w-10 rounded-full' src={data.author.img} alt="" />
 
@@ -27,7 +27,7 @@ const NewsCardDetails = ({ data }) => {
 
                     </div>
 
-                    <div className='flex space-x-2 text-[#706F6F] '>
+                    <div className='flex justify-between lg:justify-evenly space-x-2 text-[#706F6F] '>
 
                         <FaRegBookmark></FaRegBookmark>
                         <FaShareAlt></FaShareAlt>
@@ -43,7 +43,7 @@ const NewsCardDetails = ({ data }) => {
 
                 <figure><img src={data.image_url} alt="Shoes" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title">
+                    <h2 className="card-title flex-col-reverse">
                         {data.title}
                         <div className={data.others_info.is_trending && "badge badge-secondary"}>
 
@@ -64,7 +64,7 @@ const NewsCardDetails = ({ data }) => {
 
 
 
-                    <div className="flex justify-between items-center mt-4 border p-6">
+                    <div className="lg:flex justify-between items-center mt-4 border p-6">
                         <div className='flex  items-center space-x-3'>
 
 
@@ -82,7 +82,7 @@ const NewsCardDetails = ({ data }) => {
 
                         </div>
 
-                        <div className='flex items-center space-x-2 ms-auto'>
+                        <div className='flex py-10 lg:py-0 items-center lg:space-x-2 ms-auto'>
 
 
                             <FaRegEye></FaRegEye>
